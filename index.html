@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Sugestões</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+    <img src="C:\Users\Rodrigo T\Desktop\pagina-sugestoes\images\logo1.png" alt="logo1" class="logo1" />
+        <h1>SUA SUGESTÃO É O PRIMEIRO PASSO PARA INOVAÇÃO!</h1>
+        <p>Tem algo em mente? Envie sua ideia e faça parte da evolução da Pazotti!</p>
+    </header>
+
+    <section class="cards">
+    <div class="card">Melhoria nos processos internos - Inovação em produtos e serviços - Sustentabilidade - Ambiente de Trabalho - Cultura organizacional - Tecnologia - comunicação</div>
+    </section>
+
+    <section class="form-section">
+        <h2>Preencha abaixo e nos envie sua sugestão</h2>
+    <form action="https://formsubmit.co/analises.vendas@pazotti.com.br" method="POST">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="suggestion" placeholder="Digite sua sugestão..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
