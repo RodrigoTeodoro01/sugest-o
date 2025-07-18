@@ -20,7 +20,7 @@ body {
 }
 .card {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('images/equipe-bravo.png');
+                url('images/equipe-bravo.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
